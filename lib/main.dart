@@ -13,7 +13,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: Home(),
+      initialRoute: 
+        'home', routes: {
+        'home': (context) => Home(),
+        'profile': (context) => Profile(),
+      }
     );
   }
 }
