@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "853140674385",
+    "project_id": "flulog1",
+    "storage_bucket": "flulog1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853140674385:android:557145da49869f966c2570",
+        "android_client_info": {
+          "package_name": "com.example.flu2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853140674385-m4lqfjr9s07qr2smnpfetb5919lhttci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC65-ElocsX7ITfXnyxxliGCep0s0pqxlo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853140674385-m4lqfjr9s07qr2smnpfetb5919lhttci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
