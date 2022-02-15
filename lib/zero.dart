@@ -12,9 +12,20 @@ class _ZeroState extends State<Zero> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Center(
-        child: Text('Welcome!'),
-      ),
+      body:
+        ListWheelScrollView(
+          itemExtent: 50,
+          perspective: 0.01,
+          children: [
+          Container(
+            color: Colors.blue,
+            child: Center(child: Text('hello')),
+          ),
+          Container(
+            color: Colors.blue,
+            child: Center(child: Text('hello')),
+          )
+        ],)
     );
   }
 }
