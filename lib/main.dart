@@ -1,6 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flu2/profile.dart';
+import 'package:flu2/zero.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,9 +15,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       initialRoute: 
-        'home', routes: {
+        'zero', routes: {
         'home': (context) => Home(),
         'profile': (context) => Profile(),
+        'zero': (context) => Zero(),
       }
     );
   }
@@ -79,12 +81,10 @@ class _LoginState extends State<Login> {
     }
     return user;
   }
-
   @override
   Widget build(BuildContext context) {
     TextEditingController _emailController = TextEditingController();
     TextEditingController _passwordController = TextEditingController();
-
     return Padding(
       padding: const EdgeInsets.all(16.0),
       child: Column(
